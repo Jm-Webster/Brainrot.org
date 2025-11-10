@@ -1,77 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot Official</title>
+    <style>
+        /* General Body */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f0d3; /* khaki */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: darkgoldenrod;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        header h1 {
+            display: inline-block;
+            font-size: 2rem;
+            margin: 0;
+            vertical-align: middle;
+        }
+
+        /* Main content wrapper */
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 40px;
+            background-color: #fff8dc; /* lighter khaki */
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        section h2 {
+            border-bottom: 2px solid darkgoldenrod;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+            color: #b8860b;
+        }
+
+        /* Videos */
+        video {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* Images */
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            margin: 10px 0;
+        }
+
+        /* Links */
+        a {
+            color: darkblue;
+            text-decoration: underline;
+            word-break: break-word;
+        }
+
+        /* Wiki-style links container */
+        .links-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        /* Paragraph for text content */
+        .text-block {
+            background-color: #fff4e1;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+
+        /* Video + thumbnail alignment */
+        .media-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        /* Responsive for smaller screens */
+        @media(max-width: 768px){
+            header h1 {
+                display: block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
     <header>
-        <title> Brainrot Official </title>
-            <style>
-                button {
-                background-color:darkgoldenrod; /* Yellow */
-                border: none;
-                color: black;
-                padding: 15px 32px;
-                border:none;
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;}
-                    </style>
-                        <button><p style="font-size:30px">BRAINROT.ORG</p></button>
+        <img src="Images/logo.png" alt="Logo" width="80" height="70">
+        <h1>BRAINROT.ORG</h1>
+    </header>
 
-<title>Brainrot.net</title>     <img src="Images/logo.png" alt="Logo.jpg" width="80" height="70">
-        <hr>
-    <body>
-
-        <h1>Welcome to BRAINROT.ORG</BRAINROT></h1> 
-            <p>"BEHOLD THE GREAT SPAM OF BUDDHA!"</p>
-                <video width="900" height="600" controls>
+    <main>
+        <!-- WELCOME SECTION -->
+        <section>
+            <h2>Welcome to BRAINROT.ORG</h2>
+            <p class="text-block"><strong>"BEHOLD THE GREAT SPAM OF BUDDHA!"</strong></p>
+            <div class="media-wrapper">
+                <video controls>
                     <source src="Videos/Example of Brainrot.mp4" type="video/mp4">
                     <source src="Videos/Example of Brainrot.mp4" type="video/ogg">
                     Your browser does not support the video tag.
-                    </video> 
+                </video>
+                <img src="Images/Brainrot.png" alt="Brainrot">
+            </div>
+        </section>
 
-                <img src="Images/Brainrot.png" alt="Brainrot"style="width:900px;height:600px;"> 
-                <body style="background-color:khaki;"></body>
-           
-     <h1>LINKS OF CHEATS AND EXPLOITS</BRAINROT></h1>    
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">http://www.mediafire.com/?dr7j41342wv5dc3n7t</a>
-                <p>    
-                    <a href=https://www.youtube.com/watch?v=pw2GtUhNoCM target="blank">http://www.mediafire.com/?dr7j5134wv5dc3n7t</a> 
-                <p2>   
-                    <P>
-                        <a href=https://www.pornhub.com/ target="blank">http://www.mediafire.com/?dr7j623wv5dc3n7t</a> 
-                    <P>
-                        <a href=https://www.xnxx.tv/ target="blank">http://www.mediafire.com/?dr7j45423wv5dc3n7t</a>
+        <!-- LINKS OF CHEATS AND EXPLOITS -->
+        <section>
+            <h2>Links of Cheats and Exploits</h2>
+            <ul class="links-list">
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">http://www.mediafire.com/?dr7j41342wv5dc3n7t</a></li>
+                <li><a href="https://www.youtube.com/watch?v=pw2GtUhNoCM" target="_blank">http://www.mediafire.com/?dr7j5134wv5dc3n7t</a></li>
+                <li><a href="https://www.pornhub.com/" target="_blank">http://www.mediafire.com/?dr7j623wv5dc3n7t</a></li>
+                <li><a href="https://www.xnxx.tv/" target="_blank">http://www.mediafire.com/?dr7j45423wv5dc3n7t</a></li>
+            </ul>
+        </section>
 
-    <h2>COMBO TUTORIALS</BRAINROT></h2>
-        <a href="https://youtu.be/RKVDXaI5PUw?si=HoExfDvC-L6e-RTT" target="_blank">https://youtu.be/RKVDXaI5PUw?si=HoExfDvC-L6e-RTT</a>
-    <p>    
-        <a href=https://youtu.be/fxPcJTU-A8U?si=_bhZvwzIt_sPlNhA target="blank">https://youtu.be/fasfw2I5PUw?si=HoExfDvC-L6e-RTT</a> 
-    <p2>   
-        <P>
-            <a href=https://youtu.be/6-8E4Nirh9s?si=IJkKbG9PR5HuTwmr target="blank">https://youtu.be/RKasdw=HoExfDvC-L6e-RTT</a> 
-        <P>
-            <a href=https://youtu.be/mcYLzu_1cNc?si=DaNwMWohTALmTaFT target="blank">https://youtu.be/RKEAasf?si=HoExfDvC-L6e-RTT</a>
+        <!-- COMBO TUTORIALS -->
+        <section>
+            <h2>Combo Tutorials</h2>
+            <ul class="links-list">
+                <li><a href="https://youtu.be/RKVDXaI5PUw?si=HoExfDvC-L6e-RTT" target="_blank">https://youtu.be/RKVDXaI5PUw?si=HoExfDvC-L6e-RTT</a></li>
+                <li><a href="https://youtu.be/fxPcJTU-A8U?si=_bhZvwzIt_sPlNhA" target="_blank">https://youtu.be/fxPcJTU-A8U?si=_bhZvwzIt_sPlNhA</a></li>
+                <li><a href="https://youtu.be/6-8E4Nirh9s?si=IJkKbG9PR5HuTwmr" target="_blank">https://youtu.be/6-8E4Nirh9s?si=IJkKbG9PR5HuTwmr</a></li>
+                <li><a href="https://youtu.be/mcYLzu_1cNc?si=DaNwMWohTALmTaFT" target="_blank">https://youtu.be/mcYLzu_1cNc?si=DaNwMWohTALmTaFT</a></li>
+            </ul>
+            <img src="Images/kano.png" alt="Kano">
+        </section>
 
-    <p> 
-        <img src="Images/kano.png" alt="kano.jpg" width="400" height="400">
-           
- <h2>Okay so i am so soap🧼 rn, like oml 😫 rehehe am house 🏠 like rn like gym 🏀 uwu like oml Arizona,  
-    hahah  eee, the southern hemisphere  isn’t it super duper super duper super cool ikr?! Like oh my goodness its so reltedable 🤣🤣 im so quirky 👉👈 hehe~ RHEJRHE coughs 😷 excuse me 🤧 im just so so so so so so so so so dies so so so 😵 quirky ikr, 
-    girl stfu 😦 like ur so ugly 🥸 and so weird 🍄 and so ew 🎧 el gasp how dare you 🤬 idc. 
-    WELL I DO 🤬 shshsh girlypop 🍭 im not your girlypop 💢 haha ikr 🕶️ SHUTDUP. 
-    No thanks 🔫 how DARE YOU you are so mean and so not nice i’ll report you to the police for bullying 👉👈 no you wont ❌ y-yes i will you big meanie 🥺 f*cking liar. 
-    🤬 i-im no lair! 🥺 stfu 🖕 okay.. 🥺 i said shutdup 🔫 gasp w-wait i-i-i–ii-i-i-i-i-</BRAINROT></h2>
-
-        
-
-                    
-                       
-
-
-
-
-                    
-                
-            
- 
+        <!-- FUN / QUIRKY TEXT -->
+        <section>
+            <h2>Brainrot Quirky Notes 🌀</h2>
+            <p class="text-block">
+                Okay so i am so soap🧼 rn, like oml 😫 rehehe am house 🏠 like rn like gym 🏀 uwu like oml Arizona, hahah eee, 
+                the southern hemisphere isn’t it super duper super duper super cool ikr?! Like oh my goodness its so relatable 🤣🤣 
+                im so quirky 👉👈 hehe~ RHEJRHE coughs 😷 excuse me 🤧 im just so so so so so so so so so dies so so so 😵 quirky ikr, 
+                girl stfu 😦 like ur so ugly 🥸 and so weird 🍄 and so ew 🎧 el gasp how dare you 🤬 idc. 
+                WELL I DO 🤬 shshsh girlypop 🍭 im not your girlypop 💢 haha ikr 🕶️ SHUTDUP. 
+                No thanks 🔫 how DARE YOU you are so mean and so not nice i’ll report you to the police for bullying 👉👈 no you wont ❌ 
+                y-yes i will you big meanie 🥺 f*cking liar. 🤬 i-im no lair! 🥺 stfu 🖕 okay.. 🥺 i said shutdup 🔫 gasp w-wait i-i-i–ii-i-i-i-i-
+            </p>
+        </section>
+    </main>
+</body>
+</html>
